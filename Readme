@@ -1,0 +1,19 @@
+// Olá, esse foi o resultado alcançado no Projeto de Crud Solicitado para a vaga de estágio de desenvolvimento
+// tive algumas dificuldades no processo de criação, e alguns detalhes não consegui resolver a tempo, porém me esforcei
+// bastante para a entrega do projeto, me dediquei bastante, e espero que gostem do resultado apesar de não estarem
+// totalmente finalizados
+// o que não foi conseguido implementar?
+// 1 - correção de bug: ao cadastrar produto, na primeira tentativa de cadastrar, não salva seus inputs, somente
+// na segunda tentativa de salvar o mesmo é salvo e é enviado para o Local Storage conforme requisitado !
+// 2 - validação de código de barras(EAN13), não consegui aplicar a tempo a validação no campo existente de código
+// de barras
+// 
+// no mais, acredito ter atendido bem os requisitos e espero que gostem mais uma vez, a todos o meu agradecimento
+//  por disponibilizar esse processo que acrescentou bastante no meu desenvolvimento, e ao tempo dedicado para com
+// os candidatos, fazer parte desse processo é bastante enriquecedor para os candidatos...
+// 
+// meus agradecimentos -Wesley Junio nogueira dos santos !
+// 
+// 
+// 
+// 

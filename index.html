@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="icon" href="favicon.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/records.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="main.js" defer></script>
+    <title>CRUD</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Cadastro de Produto</h1>
+    </header>
+    <main>
+        <!-- botão de cadastro de produtos -->
+
+        <button type="button" class="button blue mobile" id="cadastrarProduto">Cadastrar Produto</button>
+        <table id="tableProduto" class="records">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Nome do Produto</th>
+                    <th>Código de barra</th>
+                    <th>Saldo em estoque</th>
+                    <th>Preço</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <!-- Apagar modal -->
+        <div class="modal" id="modal2">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Excluir Cliente</h2>
+                    <span class="modal-close" id="modalClose2">&#10006;</span>
+                </header>
+                <div id='avisoDelete'>
+                    <!-- aviso de delete -->
+                </div>
+                <footer class="modal-footer">
+                    <button id="apagar" class="button red">Apagar</button>
+                    <button id="cancelar2" class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+
+        <!-- MODAL CRIAR E EDITAR -->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Produto</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form id="form" class="modal-form">
+
+                    <input type="text" id="produto" class="modal-field" placeholder="Produto" required>
+                    <input type="text" id="nome_prod" class="modal-field" placeholder="Categoria" required>
+                    <input type="number" id="cod_barra" class="modal-field" placeholder="Código de barra" required> 
+                    <input type="text" id="saldo_estoque" class="modal-field" placeholder="Saldo em estoque" required> 
+                    <input type="number" id="preco" class="modal-field" placeholder="Preço" required>
+                </form>
+                <footer class="modal-footer">
+                    <button id="salvar" class="button green">Salvar</button>
+                    <button id="cancelar" class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        Desenvolvido para o teste da empresa ATX!!!
+    </footer>
+</body>
+</html>
